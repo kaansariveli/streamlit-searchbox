@@ -37,8 +37,8 @@ class SearchboxStyle {
       <div>
         <Dropdown
           // streamlit has fixed icon sizes at 15x15
-          width={15}
-          height={15}
+          width={25}
+          height={25}
           fill={this.theme.textColor}
           style={{
             marginRight: menu ? "7px" : "8px",
@@ -65,8 +65,8 @@ class SearchboxStyle {
         ref={ref}
         fill={this.theme.fadedText60}
         // streamlit has fixed icon sizes at 15x15
-        width={15}
-        height={15}
+        width={25}
+        height={25}
       />
     )
   }
